@@ -1,0 +1,39 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - LJFAPINetKit (1.0):
+    - AFNetworking (~> 2.3)
+
+DEPENDENCIES:
+  - LJFAPINetKit (from `../`)
+
+EXTERNAL SOURCES:
+  LJFAPINetKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  LJFAPINetKit: 9645255b20c463a82885f3c59da7b27c0fefec2f
+
+PODFILE CHECKSUM: 762a520cf75296098490e06233ccf7c2001c8ad3
+
+COCOAPODS: 1.4.0
