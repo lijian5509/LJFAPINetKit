@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LJFAPINetKit_Example' do
+  pod 'LJFAPINetKit', :path => '../'
+
+  target 'LJFAPINetKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
